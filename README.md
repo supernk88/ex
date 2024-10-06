@@ -90,7 +90,7 @@ animation: fadeIn 5s ease-in-out;
 <p>You mean the world to me, and I wanted you to know...</p>
 <button onclick="showMore()">Click to See More</button>
 </div>
-<footer>Created by SUPERNK not Shamil</footer>
+<footer>Created by Shamil</footer>
 <script>
 function showMore() {
 alert('I miss you and I hope we can find a way to make things right. You will always have a special place in my heart.');
