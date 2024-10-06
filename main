@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>I Love You</title>
+<style>
+body {
+margin: 0;
+padding: 0;
+font-family: 'Arial', sans-serif;
+background: linear-gradient(to right, #ff6a6a, #ffa6a6);
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+overflow: hidden;
+flex-direction: column;
+}
+
+.container {
+text-align: center;
+animation: fadeIn 3s ease-in-out;
+}
+
+h1 {
+font-size: 5em;
+margin: 0;
+animation: heartBeat 2s infinite;
+}
+
+p {
+font-size: 1.5em;
+margin: 20px 0;
+animation: slideIn 2s ease-in-out forwards;
+}
+
+@keyframes heartBeat {
+0%, 100% {
+transform: scale(1);
+}
+50% {
+transform: scale(1.1);
+}
+}
+
+@keyframes slideIn {
+from {
+opacity: 0;
+transform: translateY(50px);
+}
+to {
+opacity: 1;
+transform: translateY(0);
+}
+}
+
+@keyframes fadeIn {
+0% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
+}
+
+button {
+background-color: #ffcccc;
+border: none;
+border-radius: 5px;
+color: #ff6a6a;
+padding: 15px 30px;
+font-size: 1.2em;
+cursor: pointer;
+animation: slideIn 3s ease-in-out forwards;
+}
+
+button:hover {
+background-color: #ffb3b3;
+}
+
+footer {
+text-align: center;
+color: white;
+animation: fadeIn 4s ease-in-out;
+}
+
+.credit {
+margin-top: 30px;
+font-size: 1em;
+color: white;
+animation: fadeIn 5s ease-in-out;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>I Love You</h1>
+<p>You mean the world to me, and I wanted you to know...</p>
+<button onclick="showMore()">Click to See More</button>
+</div>
+<footer>Created by SUPERNK not Shamil</footer>
+
+<script>
+function showMore() {
+alert('I miss you and I hope we can find a way to make things right. You will always have a special place in my heart.');
+}
+</script>
+</body>
+</html>
